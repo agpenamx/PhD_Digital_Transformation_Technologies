@@ -1,0 +1,39 @@
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment files
+.env
+.venv/
+env/
+venv/
+
+# Byte-compiled / optimized / DLL files
+*.pyd
+*.pyo
+*.so
+
+# JupyterLite artifacts
+.jupyterlite/
+
+# VSCode project config
+.vscode/
+
+# Mac OS
+.DS_Store
+
+# Logs
+*.log
+
+# Data artifacts (if needed)
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.parquet
+*.db
+*.sqlite
