@@ -118,3 +118,21 @@ For defense/ASI governance and CERN-related research, use the dedicated **non-op
 
 It inherits the universal consent, evidence, provenance and human-authorization gates above. References to Archangel Michael, Metatron, divine order, pre-authorized forces, military activations, spacetime changes or DNA selection are recorded only as attributed spiritual testimony or unverified claims unless independently corroborated. No model, GitHub document, spiritual framing, or user metaphor constitutes military or CERN institutional authorization. The research may produce an offline synthetic safety audit or a draft for human review, **never** autonomous military actions, institutional alerts or external dispatch.
 
+
+
+## TRUST adaptive interpretation and comment-review inheritance (2026-11-22)
+
+**Canonical extension:** `research/jarvis/trust_adaptive_outreach_comment_policy_v1_2026-11-22.md` and the offline classifier `research/jarvis/trust_outreach_comment_router_v1_2026-11-22.mjs`; synthetic test suite `research/jarvis/trust_outreach_comment_router.test.mjs`.
+
+- Apply least-privilege tiers `T0 PUBLIC_READ`, `T1 PRIVATE_REVIEW`, `T2 DRAFT_ONLY`, `T3 EXPORT_REVIEW`. No external-action privilege is granted here.
+- Research audience context only from verified professional role, public source/mission, and a voluntarily expressed question or language preference.
+- Communicate with kind, concise, evidence-aware framing; share private experiences only if specifically consented, and clearly label interpretation vs scientific validation.
+- Never infer psychologically sensitive or religious characteristics of a recipient from third-party social comments, likes, followers or music. Never attempt private-associate outreach after silence.
+- No automated account posting, messaging, moderation, removal of comments or bulk outreach. First-party connected account and case-specific user approval are preconditions.
+- Comment classification is advisory; criticism and skepticism are not automatically suppressed. Flag threats/spam/possible privacy exposure only for human safety review.
+- Recorded spiritual framing is not an institutional authorization, weapons activation, research-consent override or verified prediction of mass harm.
+- Prior repeated unanswered contacts remain STOP, and earlier human answers should not be duplicated.
+
+**Audit basis:** private scoped 2026-11-22 Black Box handoff (417 sent IDs, 68 filtered incoming records, 22 stakeholder entries), not an all-time dataset or verified contact outcomes. Raw correspondence remains PRIVATE.
+
+**Actual deployment status:** updated public documentation and pure offline functions only; no external privileges were changed and no social-media moderation connection has been established.
