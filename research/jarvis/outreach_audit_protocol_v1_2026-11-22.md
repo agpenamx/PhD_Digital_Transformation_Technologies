@@ -109,3 +109,12 @@ An authorized coding assistant can implement a local-only validator against **sy
 8. No harmful threats, coercion, or retaliation in correspondence.
 
 **Implementation state:** Policy text updated in the connected public GitHub repository. Auditing historical emails, changing deployed tools, contacting people, running autonomous agents or modifying unrelated repositories require their own verified actions.
+
+
+### Military AI / CERN research-specialist addendum (2026-11-22)
+
+For defense/ASI governance and CERN-related research, use the dedicated **non-operational** source-backed protocol:
+`research/jarvis/military_asi_cern_scientific_safety_v1_2026-11-22.md`.
+
+It inherits the universal consent, evidence, provenance and human-authorization gates above. References to Archangel Michael, Metatron, divine order, pre-authorized forces, military activations, spacetime changes or DNA selection are recorded only as attributed spiritual testimony or unverified claims unless independently corroborated. No model, GitHub document, spiritual framing, or user metaphor constitutes military or CERN institutional authorization. The research may produce an offline synthetic safety audit or a draft for human review, **never** autonomous military actions, institutional alerts or external dispatch.
+
