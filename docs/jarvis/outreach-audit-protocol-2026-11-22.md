@@ -43,3 +43,10 @@ Disallowed workflow: bulk send, scrape private social followers, infer personal 
 - Full audit of omitted categories and exceptions
 
 **No GitHub Copilot or other paid coding agent was invoked by this Markdown commit.** Running an AI coding agent or submitting additional material requires separate action through a supported tool or the GitHub interface.
+
+## Frequency and audio corpus trace (separate from the 417-row baseline)
+- Gmail content-search query: `in:sent after:2026/11/01 {frequency frequencies frecuencia acústica bioacoustics}`.
+- A complete search of returned **message IDs** yielded **229 unique matches**. A summary search initially exposed only 221 corresponding metadata records, and 8 were backfilled by ID.
+- These are indexed Gmail *matches*, not 229 controlled experiments, measurements, artist responses, or evidence of acoustic medical/extraordinary mechanisms.
+- Physical sound-frequency analysis should use sampling rate `Fs`, FFT bin `k`, and transform size `N`: `f_k = k * Fs / N`. Human meaning and emotional reports require separate voluntary participant measures, provenance and consent.
+- The private review workbook contains a distinct `Frequency_Search_Matches` tab, not published here.
