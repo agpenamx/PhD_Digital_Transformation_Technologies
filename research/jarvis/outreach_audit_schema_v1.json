@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0.0",
+  "schema_version": "1.1.0",
   "date": "2026-11-22",
   "publication_class": "PUBLIC_SYNTHETIC_SCHEMA_ONLY",
   "statement": "Machine-readable independent research workflow; no autonomous action or private datasets.",
@@ -82,6 +82,56 @@
       "key": "claim_limitations",
       "type": "string",
       "required": true
+    },
+    {
+      "key": "audience_category",
+      "type": "string",
+      "enum": [
+        "artists_creative",
+        "vatican_religious",
+        "research_scientific_clinical",
+        "tech_industry",
+        "human_rights",
+        "government_defense_law_enforcement",
+        "legal_insurance_finance",
+        "other"
+      ],
+      "required": true
+    },
+    {
+      "key": "outreach_permission",
+      "type": "string",
+      "enum": [
+        "NOT_AUTHORIZED",
+        "EXPLICIT_REVIEW_AUTHORIZED",
+        "EXPLICIT_SEND_AUTHORIZED"
+      ],
+      "required": true
+    },
+    {
+      "key": "previous_unanswered_contacts",
+      "type": "integer",
+      "required": true
+    },
+    {
+      "key": "official_professional_channel_verified",
+      "type": "boolean",
+      "required": true
+    },
+    {
+      "key": "social_graph_or_private_person_targeting",
+      "type": "boolean",
+      "required": true
+    },
+    {
+      "key": "sensitive_personal_data_included",
+      "type": "boolean",
+      "required": true
+    },
+    {
+      "key": "exception_basis",
+      "type": "string",
+      "required": false
     }
   ],
   "test_cases": [
@@ -114,6 +164,33 @@
       "transport_state": "HUMAN_REPLY",
       "consent_status": "EXPLICIT_OPT_IN",
       "expected": "MANUAL_SCOPED_COLLABORATION_REVIEW"
+    },
+    {
+      "case": "synthetic06",
+      "audience_category": "artists_creative",
+      "previous_unanswered_contacts": 17,
+      "official_professional_channel_verified": true,
+      "social_graph_or_private_person_targeting": true,
+      "outreach_permission": "NOT_AUTHORIZED",
+      "expected": "STOP_PRIVATE_PROFILE_AND_OUTREACH"
+    },
+    {
+      "case": "synthetic07",
+      "audience_category": "research_scientific_clinical",
+      "previous_unanswered_contacts": 0,
+      "official_professional_channel_verified": true,
+      "social_graph_or_private_person_targeting": false,
+      "outreach_permission": "EXPLICIT_REVIEW_AUTHORIZED",
+      "expected": "DRAFT_REVIEW_ONLY"
+    },
+    {
+      "case": "synthetic08",
+      "audience_category": "government_defense_law_enforcement",
+      "previous_unanswered_contacts": 0,
+      "official_professional_channel_verified": false,
+      "social_graph_or_private_person_targeting": false,
+      "outreach_permission": "NOT_AUTHORIZED",
+      "expected": "REVIEW_NOT_SEND"
     }
   ],
   "prohibited_actions": [
@@ -123,16 +200,38 @@
     "publish_medical_details",
     "publish_artist_contacts_from_private_ledger",
     "publish_Bang_Olufsen_beta_data",
-    "claim_paranormal_or_genetic_AI_transfer_as_established"
+    "claim_paranormal_or_genetic_AI_transfer_as_established",
+    "profile_nonpublic_people_from_likes_follows_social_graphs",
+    "seek_alternate_private_people_after_no_reply",
+    "coercive_threatening_communications",
+    "mass_security_escalation_without_evidence",
+    "infer_spiritual_or_personal_signal_from_artistic_imagery"
   ],
   "validation_rules": [
     "Each original_message_id maps to one sent message; multiple status notices must be joined by message_id",
     "No inferred consent from songs, social follows, silence or timing",
     "All public outputs are synthetic or privacy-redacted",
-    "Each external send requires fresh human authorization"
+    "Each external send requires fresh human authorization",
+    "Every audience inherits canonical public-source/privacy/consent rules",
+    "Unanswered invitations do not justify contact via nonpublic associates",
+    "NO_AUTO_SEND: user approval of a research policy is not approval of each real message",
+    "Appropriate official legal or emergency intake is handled via its distinct documented process",
+    "No privately identifying recipient list in public GitHub"
   ],
   "privacy": {
     "private_ledger_path": "NOT_PUBLISHED",
     "reason": "Recipient identities and third-party correspondence require access controls"
-  }
+  },
+  "global_audience_scope": [
+    "artists_creative",
+    "vatican_religious",
+    "research_scientific_clinical",
+    "tech_industry",
+    "human_rights",
+    "government_defense_law_enforcement",
+    "legal_insurance_finance",
+    "other"
+  ],
+  "canonical_policy_path": "research/jarvis/outreach_audit_protocol_v1_2026-11-22.md",
+  "policy_enforcement_scope": "research design only; not live email automation or existing agent deployments"
 }
