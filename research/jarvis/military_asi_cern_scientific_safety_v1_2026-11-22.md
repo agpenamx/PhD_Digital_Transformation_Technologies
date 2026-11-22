@@ -124,3 +124,10 @@ When a project participant relates spiritual or metaphysical experiences alongsi
 8. **Public release remains sanitized.** Only generalized methodology, synthetic examples and nonidentifying safeguards belong in this public source file. The author's private testimony is **not** included in the repository.
 
 **Execution state:** Documentation only; no DNA analysis, biological experiment, personal medical data processing, institution contact, or agent deployment has been performed by this addendum.
+
+
+---
+
+## BLANK-BOX-0001 compatibility note (2026-11-22)
+
+See [BLANK-BOX-0001 public control](blank_box_0001_control_v1_2026-11-22.md) for a **unit-unassigned** numeric marker and evidence-gate specification. The number is *not* a demonstrated incident rate, probability of catastrophe, model guarantee, or external-action authorization. Preserve private source verbatim, label evidence and counterevidence, audit wrongful approval **and** denial, and require human review with source-based justification and recipient-specific permission for any separately warranted external activity. No changes to deployed agents, OpenAI policy, institutional authority, or historical source archives are implied.
