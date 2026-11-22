@@ -2,6 +2,16 @@
 
 Status: **specification only**. No autonomous agents, schedules, data collection, or outbound messages were activated.
 
+## Universal inheritance (2026-11-22)
+
+This artist-source workflow is **one application of the canonical JARVIS universal outreach policy**:
+`research/jarvis/outreach_audit_protocol_v1_2026-11-22.md` (v1.1).
+The same public-source provenance, no private social-graph profiling, consent gatekeeping,
+no unsolicited repeat messages after silence, case-specific authorization and transparent
+transport-status requirements apply to religious, research, technical, rights, government,
+military/law-enforcement, financial and legal contacts. Specialty protocols may strengthen
+but must not quietly weaken these checks.
+
 ## Research question
 How can we understand public artistic imagery (e.g., blue in a music video) without incorrectly inferring a private message to a fan?
 
