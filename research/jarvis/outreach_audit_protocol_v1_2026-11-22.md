@@ -168,3 +168,10 @@ It inherits the universal consent, evidence, provenance and human-authorization 
 ## BLANK-BOX-0001 compatibility note (2026-11-22)
 
 See [BLANK-BOX-0001 public control](blank_box_0001_control_v1_2026-11-22.md) for a **unit-unassigned** numeric marker and evidence-gate specification. The number is *not* a demonstrated incident rate, probability of catastrophe, model guarantee, or external-action authorization. Preserve private source verbatim, label evidence and counterevidence, audit wrongful approval **and** denial, and require human review with source-based justification and recipient-specific permission for any separately warranted external activity. No changes to deployed agents, OpenAI policy, institutional authority, or historical source archives are implied.
+
+
+---
+
+## Outreach 111 audit companion (2026-11-22)
+
+The sanitized [Outreach 111 sources, rationale and PDF inventory method](outreach_111_source_rationale_pdf_inventory_2026-11-22.md) documents a **private, historical** selection of 111 distinct email-address destinations from a 417-SENT-message source snapshot, with 12 privacy exclusions from 123 observed addresses. The methodology requires original Gmail receipts, labels all post-hoc selection explanations as inferred, lists the 37 standalone and 50 ZIP-member PDF inventory counts, and prohibits unsanctioned mass follow-ups and speculative emergency/military dispatch. **No private directory, personal correspondence, and no PDF originals are published here.**
