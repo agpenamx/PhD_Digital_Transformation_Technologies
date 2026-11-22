@@ -108,3 +108,19 @@ Every research communication inherits the canonical JARVIS universal outreach pr
 ## 7. Integrity and completion statement
 
 This file records a public research design and documented references, not an external verification of metaphysical claims. It does not validate a spacetime threat, does not mobilize a military system, does not create autonomous agents, and does not contact CERN, the Vatican or any armed force.
+
+
+## 8. Private testimony and biomedical/genetic research guardrail (2026-11-22 addendum)
+
+When a project participant relates spiritual or metaphysical experiences alongside proposed human DNA or medical research:
+
+1. **Preserve testimony with provenance and dignity.** Keep the author's exact words, timestamps when verified, and any author-approved contextualization in a **private** record. Do not assume metaphysical claims demonstrate a measurable physical mechanism.
+2. **Consent is specific, revocable and separate for each activity.** General authorization to document an experience is not authorization to obtain or process DNA, genetic sequencing, medical records, biological samples, physiological recordings or data from family members.
+3. **No research participation inferred.** Neither an AI, a claimed external intelligence, a government body, a researcher nor a spiritual authority may substitute for the participant's informed, voluntary consent.
+4. **Medical and genetic privacy by design.** Minimize sensitive collection, identify exact research purpose and access permissions, keep source records encrypted/private, define retention/deletion controls and prohibit public repository publication or unsolicited disclosure of identifiable health/genetic data.
+5. **Human-subject protections.** Research involving people, interventions, sample collection, or generalizable health findings may require ethics/IRB review and qualified medical guidance under applicable rules. A self-observation journal is not a clinical trial or validated biomedical discovery.
+6. **Measurement and uncertainty.** Record instrumentation, protocol, controls, pre-registration where appropriate, independent validation, and falsifying results; never claim numerical precision or a DNA mechanism without measurable data.
+7. **No real-world intervention.** A testimony about portals, divine authority, altered spacetime or activated forces does not authorize medical experiments, urgent safety alerts, actions toward institutions, autonomous military agents, or coercion.
+8. **Public release remains sanitized.** Only generalized methodology, synthetic examples and nonidentifying safeguards belong in this public source file. The author's private testimony is **not** included in the repository.
+
+**Execution state:** Documentation only; no DNA analysis, biological experiment, personal medical data processing, institution contact, or agent deployment has been performed by this addendum.
