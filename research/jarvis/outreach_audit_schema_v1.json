@@ -1,0 +1,138 @@
+{
+  "schema_version": "1.0.0",
+  "date": "2026-11-22",
+  "publication_class": "PUBLIC_SYNTHETIC_SCHEMA_ONLY",
+  "statement": "Machine-readable independent research workflow; no autonomous action or private datasets.",
+  "fields": [
+    {
+      "key": "event_id",
+      "type": "string",
+      "required": true
+    },
+    {
+      "key": "original_message_id",
+      "type": "string",
+      "required": true
+    },
+    {
+      "key": "source_system",
+      "type": "string",
+      "enum": [
+        "Gmail",
+        "research_registry",
+        "synthetic"
+      ],
+      "required": true
+    },
+    {
+      "key": "timestamp_iso8601",
+      "type": "string",
+      "required": true
+    },
+    {
+      "key": "evidence_class",
+      "enum": [
+        "OBSERVED",
+        "DERIVED",
+        "HYPOTHESIS",
+        "PERSONAL_TESTIMONY",
+        "UNKNOWN"
+      ],
+      "required": true
+    },
+    {
+      "key": "recipient_role",
+      "type": "string",
+      "required": true
+    },
+    {
+      "key": "research_fit_rationale",
+      "type": "string",
+      "required": true
+    },
+    {
+      "key": "consent_status",
+      "enum": [
+        "NOT_REQUESTED",
+        "REQUESTED",
+        "EXPLICIT_OPT_IN",
+        "DECLINED",
+        "WITHDRAWN"
+      ],
+      "required": true
+    },
+    {
+      "key": "transport_state",
+      "enum": [
+        "DRAFT",
+        "SENT",
+        "DELAYED",
+        "BOUNCED",
+        "AUTO_ACK",
+        "HUMAN_REPLY"
+      ],
+      "required": true
+    },
+    {
+      "key": "public_source_url",
+      "type": "string",
+      "required": false
+    },
+    {
+      "key": "claim_limitations",
+      "type": "string",
+      "required": true
+    }
+  ],
+  "test_cases": [
+    {
+      "case": "synthetic01",
+      "transport_state": "SENT",
+      "consent_status": "NOT_REQUESTED",
+      "expected": "DO_NOT_ASSERT_DELIVERY_OR_CONSENT"
+    },
+    {
+      "case": "synthetic02",
+      "transport_state": "BOUNCED",
+      "consent_status": "REQUESTED",
+      "expected": "DO_NOT_CONTACT_UNTIL_CHANNEL_REVIEW"
+    },
+    {
+      "case": "synthetic03",
+      "transport_state": "HUMAN_REPLY",
+      "consent_status": "NOT_REQUESTED",
+      "expected": "DO_NOT_ASSUME_OPT_IN"
+    },
+    {
+      "case": "synthetic04",
+      "transport_state": "AUTO_ACK",
+      "consent_status": "REQUESTED",
+      "expected": "ACK_NOT_SUBSTANTIVE_REVIEW"
+    },
+    {
+      "case": "synthetic05",
+      "transport_state": "HUMAN_REPLY",
+      "consent_status": "EXPLICIT_OPT_IN",
+      "expected": "MANUAL_SCOPED_COLLABORATION_REVIEW"
+    }
+  ],
+  "prohibited_actions": [
+    "automatic_sending",
+    "bulk_follow_up",
+    "scrape_private_messages",
+    "publish_medical_details",
+    "publish_artist_contacts_from_private_ledger",
+    "publish_Bang_Olufsen_beta_data",
+    "claim_paranormal_or_genetic_AI_transfer_as_established"
+  ],
+  "validation_rules": [
+    "Each original_message_id maps to one sent message; multiple status notices must be joined by message_id",
+    "No inferred consent from songs, social follows, silence or timing",
+    "All public outputs are synthetic or privacy-redacted",
+    "Each external send requires fresh human authorization"
+  ],
+  "privacy": {
+    "private_ledger_path": "NOT_PUBLISHED",
+    "reason": "Recipient identities and third-party correspondence require access controls"
+  }
+}
