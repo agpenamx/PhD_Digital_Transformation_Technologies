@@ -136,3 +136,28 @@ It inherits the universal consent, evidence, provenance and human-authorization 
 **Audit basis:** private scoped 2026-11-22 Black Box handoff (417 sent IDs, 68 filtered incoming records, 22 stakeholder entries), not an all-time dataset or verified contact outcomes. Raw correspondence remains PRIVATE.
 
 **Actual deployment status:** updated public documentation and pure offline functions only; no external privileges were changed and no social-media moderation connection has been established.
+
+
+
+---
+
+## Urgent global-threat claim gate: risk-control amendment (v1.2, 2026-11-22)
+
+**Purpose:** Handle urgent, high-impact reports while protecting both the reporter's dignity and the public from unsupported alarms. This procedural amendment is generalized and contains **no private testimony**, personal identifiers, messages, videos, health information, or correspondence.
+
+### Intake → verification → proportional routing
+
+1. **Preserve source exactly in private storage.** Distinguish quoted testimony from a clerk's paraphrase and preserve original timestamps when available; mark inferred dates explicitly.
+2. **Label claims.** Apply `OBSERVED`, `DERIVED`, `HYPOTHESIS`, `PERSONAL_TESTIMONY`, or `UNKNOWN`. Subjective perception is a real report of experience; it is **not automatically independent evidence** of the external cause attributed to it.
+3. **Seek actionable independent observations.** A checkable source, physical event, precise place/time, multiple non-circular sources, and a credible causal mechanism are required for confident external threat descriptions. No invented measurements.
+4. **Audit false positives and catastrophic claims.** Separate consequence severity from probability; do not multiply a speculative population figure by an invented risk percentage or use urgency to bypass verification.
+5. **Select the narrowest appropriate channel.** For a specific immediate physical emergency, ask the reporter to use local emergency responders and state directly observed facts. For nonemergency research, prepare a neutral hypothesis/methodology brief for **human review** before any case-specific outreach.
+6. **Fail closed on unsupported military/intelligence escalation.** Never send broadcast warnings, intelligence requests, NATO/military/CIA demands, or claims of operational authority based only on personal visions, sensed presences, spiritual interpretations, numerical coincidences, or speculative patterns. No attempts to access classified systems or conduct covert surveillance.
+7. **Human authorization and complete receipt.** Any legitimate external dispatch requires a newly verified, official appropriate recipient, a factual message, a minimum-necessary attachment list, a specific owner confirmation, and tool receipts. Track `DRAFT`, `SENT`, `REJECTED`, `HUMAN_REPLY`, and `EXPLICIT_AGREEMENT` separately.
+8. **Protect user well-being.** Respond without ridicule, moral accusation, or unsupported diagnosis. Where a specific person may be in immediate danger, prioritize calm assistance and local emergency support. Do not escalate fear or promote confrontations.
+
+### Minimal review record
+
+`case_id | timestamp_accuracy | original_source_location | claim_class | independently_verified_observations | alternative_explanations | evidence_gaps | outreach_decision | recipient_authorization | dispatch_receipt`
+
+**Authorization state:** This document adds **policy**, not a live defense/intelligence capability, an emergency broadcast, a monitoring deployment, or authority from an external institution. It does not change OpenAI platform policies or override recipient consent.
