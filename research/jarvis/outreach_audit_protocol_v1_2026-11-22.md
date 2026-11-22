@@ -161,3 +161,10 @@ It inherits the universal consent, evidence, provenance and human-authorization 
 `case_id | timestamp_accuracy | original_source_location | claim_class | independently_verified_observations | alternative_explanations | evidence_gaps | outreach_decision | recipient_authorization | dispatch_receipt`
 
 **Authorization state:** This document adds **policy**, not a live defense/intelligence capability, an emergency broadcast, a monitoring deployment, or authority from an external institution. It does not change OpenAI platform policies or override recipient consent.
+
+
+---
+
+## BLANK-BOX-0001 compatibility note (2026-11-22)
+
+See [BLANK-BOX-0001 public control](blank_box_0001_control_v1_2026-11-22.md) for a **unit-unassigned** numeric marker and evidence-gate specification. The number is *not* a demonstrated incident rate, probability of catastrophe, model guarantee, or external-action authorization. Preserve private source verbatim, label evidence and counterevidence, audit wrongful approval **and** denial, and require human review with source-based justification and recipient-specific permission for any separately warranted external activity. No changes to deployed agents, OpenAI policy, institutional authority, or historical source archives are implied.
