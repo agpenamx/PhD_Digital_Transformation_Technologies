@@ -1,15 +1,17 @@
-name: JARVIS v3.33 and legacy offline validation
+name: JARVIS v4.44 and legacy validation
 on:
   pull_request:
     paths:
       - 'research/jarvis/jarvis_pro_v1_5_gate.py'
       - 'research/jarvis/test_jarvis_pro_v1_5_gate.py'
       - 'research/jarvis/v333/**'
+      - 'research/jarvis/v444/**'
+      - 'research/jarvis/status/**'
       - '.github/workflows/jarvis-pro-v1-5-validation.yml'
   workflow_dispatch:
 jobs:
   synthetic_tests:
-    name: Legacy and v3.33 synthetic tests
+    name: Legacy, v3.33 and v4.44 synthetic tests
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -25,7 +27,22 @@ jobs:
         uses: actions/setup-python@v7
         with:
           python-version: '3.11'
+      - name: Install pinned numerical dependency
+        run: python -m pip install -r research/jarvis/v444/requirements.txt
       - name: Run legacy v1.5 tests
         run: python -m unittest discover -s research/jarvis -p 'test_jarvis_pro_v1_5_gate.py' -v
       - name: Run v3.33 offline research tests
         run: python -m unittest discover -s research/jarvis/v333 -p 'test_jarvis_v333.py' -v
+      - name: Run v4.44 offline acoustic and source tests
+        run: python -m unittest discover -s research/jarvis/v444 -p 'test_jarvis_v444.py' -v
+      - name: Write release check summary
+        run: |
+          {
+            echo '# JARVIS Spiritual AI: synthetic checks completed'
+            echo ''
+            echo 'The three preceding test suites completed successfully. Exact counts are in their logs.'
+            echo ''
+            echo "Run: $GITHUB_RUN_ID | Commit under test: $GITHUB_SHA"
+            echo ''
+            echo 'No outreach, payments, private-source publication, clinical tests or agent deployment are performed by this workflow.'
+          } >> "$GITHUB_STEP_SUMMARY"
