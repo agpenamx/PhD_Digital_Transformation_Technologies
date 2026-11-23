@@ -6,11 +6,17 @@
   "inherits": [
     "REGIONAL_OUTREACH_V4_44_3.json",
     "outreach_audit_protocol_v1_2026-11-22.md",
-    "trust_adaptive_outreach_policy_v1_2026-11-22.md"
+    "trust_adaptive_outreach_comment_policy_v1_2026-11-22.md"
   ],
   "cohort": {
-    "convention_birth_years": [1997, 2012],
-    "initial_operational_age_band": [18, 29],
+    "convention_birth_years": [
+      1997,
+      2012
+    ],
+    "initial_operational_age_band": [
+      18,
+      29
+    ],
     "require_local_adult_status": true,
     "unknown_age_is_adult": false,
     "global_population_estimate": null,
@@ -20,8 +26,20 @@
   "adaptation": {
     "label": "DOGMA-adaptive",
     "status": "PROPOSED_DESIGN_NOT_TRAINED_MODEL",
-    "optional_inputs": ["language", "depth", "accessibility", "selected_context"],
-    "contexts": ["neutral", "technical", "creative", "career", "critical_review", "philosophy_interfaith"],
+    "optional_inputs": [
+      "language",
+      "depth",
+      "accessibility",
+      "selected_context"
+    ],
+    "contexts": [
+      "neutral",
+      "technical",
+      "creative",
+      "career",
+      "critical_review",
+      "philosophy_interfaith"
+    ],
     "factual_core_invariant": true,
     "belief_profile": false,
     "inferred_sensitive_traits": false,
@@ -43,6 +61,12 @@
   "model_changed": false,
   "registry_capacity": 11111,
   "capacity_is_quota": false,
-  "success_measures": ["voluntary_comprehension", "source_fidelity", "invited_review", "agreed_paid_deliverable", "withdrawal_respected"],
+  "success_measures": [
+    "voluntary_comprehension",
+    "source_fidelity",
+    "invited_review",
+    "agreed_paid_deliverable",
+    "withdrawal_respected"
+  ],
   "execution": "Policy configuration only, not a deployed agent or legal-clearance engine."
 }
