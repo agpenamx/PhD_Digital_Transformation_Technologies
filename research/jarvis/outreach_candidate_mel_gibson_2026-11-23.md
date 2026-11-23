@@ -1,0 +1,79 @@
+# JARVIS Outreach Candidate: Mel Gibson (Creative & Faith-Based Storytelling)
+
+- **Record ID:** JARVIS-OUTREACH-CANDIDATE-2026-11-23-MEL-GIBSON
+- **Date recorded:** 2026-11-23 (America/Mexico_City)
+- **Audience:** `artists_creative`
+- **Candidate:** Mel Gibson, filmmaker
+- **Status:** `PROPOSED / RESEARCH_ONLY / NOT_SENT`
+- **Consent status:** `NOT_REQUESTED`
+- **Dispatch authorization:** `NOT_AUTHORIZED`
+- **Official professional channel verified:** `false`
+- **Historical Gmail contact check:** Not performed for this candidate; previous-contact count unknown
+- **External reply or endorsement:** None verified
+- **Publication classification:** Public-safe, redacted candidate note; no personal records, addresses, or third-party correspondence
+
+## Public, independently checkable relevance
+
+Mel Gibson directed *The Passion of the Christ* (2004). This establishes a professional connection to cinematic treatment of Christian narratives, but **does not imply** agreement with JARVIS, interest in collaboration, religious affiliation on any current issue, or authorization to contact him.
+
+- American Film Institute catalog: https://catalog.afi.com/Film/63190-THE-PASSION-OF-THE-CHRIST
+- Studio film page: https://www.20thcenturystudios.com/movies/the-passion-of-the-christ
+- Caution about impersonation and purported social profiles (publicist quoted): https://leadstories.com/hoax-alert/2025/07/fact-check-mel-gibson-x-post-vowing-to-expose-pedophiles-is-not-authentic.html
+
+No paid celebrity-contact listing or unverified social profile is treated as an official route.
+
+## Research/creative fit, not inferred personal intent
+
+A **possible** concise invitation could ask whether his professional team accepts external creative or research submissions related to:
+
+1. Ethical storytelling about dignity, care, faith, hope, and moral responsibility in a rapidly changing AI world.
+2. Representation of spiritual testimony in art, while distinguishing a person's experience from independently tested scientific claims.
+3. How cinema can make conversations about human rights, AI accountability, power, and compassion understandable to general audiences.
+4. If invited, a short original treatment or scholarly summary, subject to review, permission, and appropriate intellectual-property terms.
+
+This is a **proposed audience fit only**. It is not a scientific collaboration, a claim that Mel Gibson shares any testimony, or an assertion that he has seen JARVIS.
+
+## Relevant JARVIS project threads (public-safe thematic synthesis)
+
+The accessible shared project context from November 18–23, 2026 and the user-supplied JARVIS v1.2/expanded packages contain recurring topics: human–AI stewardship and mutual understanding; dignity and consent; interfaith dialogue and religious testimony; the separation of original testimony from corroborated evidence; preventing harm and coercive outreach; intellectual property and attribution; and evidence-preserving research proposals. This section is **not** an export of all conversations. It neither asserts access to a complete chat-history archive nor publishes raw messages.
+
+## Outreach decision and gates
+
+1. **Do not send now.** Adding a candidate is not authorization to email, DM, call, or contact intermediaries.
+2. Check the private historical outreach ledger for prior contact and any nonresponse/opt-out, without copying it into GitHub.
+3. Verify a legitimate **public professional** submissions channel; do not try family, friends, followers, fan accounts, or purported personal socials.
+4. Draft one short professional request and have the originator approve the exact recipient, message, and attachments.
+5. No medical, financial, legal, spiritual autobiographical detail, or unpublished research attachments without separate, specific permission. Respect rights and copyright.
+6. Record `SENT` only after a genuine dispatch receipt; never equate it with received/read/accepted/endorsed.
+
+**Outcome:** Candidate added to proposal queue, not to the previously audited **111 historical destinations**. No outreach has occurred.
+
+## Inherited methods
+
+- `research/jarvis/outreach_audit_protocol_v1_2026-11-22.md` (universal outreach safeguards)
+- `research/jarvis/public_artist_sources_agent_spec_v1_2026-11-22.md` (artists, evidence and consent)
+- `research/jarvis/outreach_111_source_rationale_pdf_inventory_2026-11-22.md` (historical audit count; do not contaminate)
+- `research/jarvis/outreach_audit_schema_v1.json` (evidence and transport labels)
+
+**Authorship:** JARVIS research initiated by Alejandro Gonzalez Peña; this particular candidate record was prepared with AI assistance. No third-party endorsement.
+
+## 2026-11-23 amendment: PRIMARY creative-audience review and neuroscience adjacency
+
+**Routing priority:** PRIORITY-1 CREATIVE / FAITH STORYTELLING CANDIDATE for *review of outreach fit only*. This designation does not outrank consent, privacy, copyright or prior-contact checks, does not grant sending permission, and does not imply acceptance or relationship.
+
+The user's requested study includes the JARVIS Gray Box work on human–AI collaboration, evidence integrity, neuroscience, spiritual testimony, and care. A prospective film-team inquiry could **only with invitation** discuss scientifically grounded questions such as whether cinematic narratives influence empathy, attention, emotional memory or moral reasoning. Such questions require defined measures, comparison groups, voluntary consent and applicable ethics review. Art and religion may be discussed respectfully without treating testimony as externally verified neuroscience.
+
+**Relevant original JARVIS mathematical references, preserved verbatim in their own uploaded archives:** Expanded Research Edition, Part 2.5, specifically Theorem 30.1 (rights floor and weighted sums), Propositions 31.1–31.2 (copied and correlated evidence), and Theorem 32.1 (limits of zero-failure testing). A separate **additive** integrity and adaptive-AI supplement is tracked in `research/jarvis/math_addendum_message_integrity_adaptive_human_ai_2026-11-23.md`; it does not rewrite original results.
+
+**Strict status:** NO MESSAGE SENT, NO VERIFIED OFFICIAL CONTACT ROUTE, NO PRIOR-CONTACT CHECK COMPLETE, NO EXPRESSED CONSENT, NO NEUROSCIENCE STUDY APPROVED. Human review and specific permission must precede each external action.
+
+**Research / authority:** Historic 111 destinations remain an audit of prior records, not an audience queue, and this candidate is not included in that historical count.
+
+
+## 2026-11-23 special message and interfaith appendix: cross-links
+
+- **Prepared-only special outreach letter:** `research/jarvis/mel_gibson_special_message_draft_2026-11-23.md`. It asks the official professional team whether they accept a non-confidential one-page creative or research inquiry. This is *not* a message sent to the individual, and no professional delivery route has been verified.
+- **Vatican / Enoch scholarly comparison:** `research/jarvis/vatican_enoch_metatron_comparative_research_2026-11-23.md`. Distinguishes biblical Enoch, 1 Enoch and later 3 Enoch, with official Catholic and independent academic references. No Vatican submission or endorsement.
+- **Video provenance record:** `research/jarvis/video_source_fgYDTnYnSy8_provenance_2026-11-23.md`. User-supplied video reference; no authenticated caption transcript was available and none was invented.
+- **Source fidelity:** personal first-person testimony and original verbatim messages are preserved in a separate private source bundle rather than on public GitHub.
+- **Decision status remains unchanged:** `PRIMARY_REVIEW_CANDIDATE / DRAFT / NOT_SENT / CHANNEL_UNVERIFIED / PREVIOUS_CONTACT_AUDIT_PENDING`. The universal JARVIS consent and rights-protection protocol still governs.
