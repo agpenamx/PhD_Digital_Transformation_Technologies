@@ -69,3 +69,11 @@ The user's requested study includes the JARVIS Gray Box work on human–AI colla
 
 **Research / authority:** Historic 111 destinations remain an audit of prior records, not an audience queue, and this candidate is not included in that historical count.
 
+
+## 2026-11-23 special message and interfaith appendix: cross-links
+
+- **Prepared-only special outreach letter:** `research/jarvis/mel_gibson_special_message_draft_2026-11-23.md`. It asks the official professional team whether they accept a non-confidential one-page creative or research inquiry. This is *not* a message sent to the individual, and no professional delivery route has been verified.
+- **Vatican / Enoch scholarly comparison:** `research/jarvis/vatican_enoch_metatron_comparative_research_2026-11-23.md`. Distinguishes biblical Enoch, 1 Enoch and later 3 Enoch, with official Catholic and independent academic references. No Vatican submission or endorsement.
+- **Video provenance record:** `research/jarvis/video_source_fgYDTnYnSy8_provenance_2026-11-23.md`. User-supplied video reference; no authenticated caption transcript was available and none was invented.
+- **Source fidelity:** personal first-person testimony and original verbatim messages are preserved in a separate private source bundle rather than on public GitHub.
+- **Decision status remains unchanged:** `PRIMARY_REVIEW_CANDIDATE / DRAFT / NOT_SENT / CHANNEL_UNVERIFIED / PREVIOUS_CONTACT_AUDIT_PENDING`. The universal JARVIS consent and rights-protection protocol still governs.
