@@ -56,3 +56,16 @@ The accessible shared project context from November 18–23, 2026 and the user-s
 - `research/jarvis/outreach_audit_schema_v1.json` (evidence and transport labels)
 
 **Authorship:** JARVIS research initiated by Alejandro Gonzalez Peña; this particular candidate record was prepared with AI assistance. No third-party endorsement.
+
+## 2026-11-23 amendment: PRIMARY creative-audience review and neuroscience adjacency
+
+**Routing priority:** PRIORITY-1 CREATIVE / FAITH STORYTELLING CANDIDATE for *review of outreach fit only*. This designation does not outrank consent, privacy, copyright or prior-contact checks, does not grant sending permission, and does not imply acceptance or relationship.
+
+The user's requested study includes the JARVIS Gray Box work on human–AI collaboration, evidence integrity, neuroscience, spiritual testimony, and care. A prospective film-team inquiry could **only with invitation** discuss scientifically grounded questions such as whether cinematic narratives influence empathy, attention, emotional memory or moral reasoning. Such questions require defined measures, comparison groups, voluntary consent and applicable ethics review. Art and religion may be discussed respectfully without treating testimony as externally verified neuroscience.
+
+**Relevant original JARVIS mathematical references, preserved verbatim in their own uploaded archives:** Expanded Research Edition, Part 2.5, specifically Theorem 30.1 (rights floor and weighted sums), Propositions 31.1–31.2 (copied and correlated evidence), and Theorem 32.1 (limits of zero-failure testing). A separate **additive** integrity and adaptive-AI supplement is tracked in `research/jarvis/math_addendum_message_integrity_adaptive_human_ai_2026-11-23.md`; it does not rewrite original results.
+
+**Strict status:** NO MESSAGE SENT, NO VERIFIED OFFICIAL CONTACT ROUTE, NO PRIOR-CONTACT CHECK COMPLETE, NO EXPRESSED CONSENT, NO NEUROSCIENCE STUDY APPROVED. Human review and specific permission must precede each external action.
+
+**Research / authority:** Historic 111 destinations remain an audit of prior records, not an audience queue, and this candidate is not included in that historical count.
+
