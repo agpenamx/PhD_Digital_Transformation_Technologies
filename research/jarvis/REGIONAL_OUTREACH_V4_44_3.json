@@ -1,0 +1,44 @@
+{
+  "protocol_id": "JARVIS-REGIONAL-OUTREACH-01",
+  "version": "4.44.3",
+  "date": "2026-11-23",
+  "mode": "RESEARCH_AND_DRAFT_ONLY",
+  "inherits": [
+    "outreach_audit_protocol_v1_2026-11-22.md",
+    "trust_adaptive_outreach_comment_policy_v1_2026-11-22.md"
+  ],
+  "lanes": {
+    "NORDIC_PUBLIC_CREATORS": {
+      "countries": ["Denmark", "Finland", "Iceland", "Norway", "Sweden"],
+      "selection": "Documented public professional work and Nordic connection; no identity inference from appearance.",
+      "languages": "Recipient-declared preference; English or relevant local language."
+    },
+    "CHINA_CIVILIAN": {
+      "selection": "Public civilian professional remit; determine the actual jurisdiction.",
+      "languages": "English and reviewed Simplified Chinese where appropriate.",
+      "reviews": ["privacy", "cross_border_data", "applicable_sanctions_and_exports", "platform_permissions"]
+    },
+    "RUSSIA_CIVILIAN": {
+      "selection": "Public civilian professional remit; no inference of political belief.",
+      "languages": "English and reviewed Russian where appropriate.",
+      "reviews": ["counterparty_and_ownership", "applicable_sanctions", "sector_and_service_restrictions", "technology", "payments", "privacy"]
+    }
+  },
+  "send_authorized": false,
+  "bulk_send": false,
+  "bookings_authorized": false,
+  "payments_authorized": false,
+  "preserve_existing_holds": true,
+  "require_fresh_prior_contact_audit": true,
+  "require_exact_recipient_body_attachment_approval": true,
+  "public_named_contact_list": false,
+  "private_associate_targeting": false,
+  "sensitive_data_in_initial_message": false,
+  "registry_capacity": 11111,
+  "capacity_is_dispatch_quota": false,
+  "unknown_means_zero": false,
+  "sent_means_delivered": false,
+  "reply_means_endorsement": false,
+  "scheduled_task_changes": "NONE",
+  "execution": "Policy data only; not a running sender or legal-clearance engine."
+}
